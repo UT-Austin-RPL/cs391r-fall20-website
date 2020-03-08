@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159856695-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-159856695-1');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="keywords" content="stanford,biods220,cs271,biomedin220,course,artificial intelligence,healthcare">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <title>CS391R: Robot Learning: Perception and Decision Making</title>
+    <link rel="icon"  href="resources/favicon.ico" />
+    <link rel="shortcut icon"  href="resources/favicon.ico" />
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <a class="navbar-brand" href="index.html">CS391R - Fall 2020</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+	    <li class="nav-item active">
+	      <a class="nav-link" href="logistics.html">Logistics</a>
+	    </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="syllabus.html">Syllabus</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="assignments.html">Assignments</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="project.html">Project</a>
+            </li>
+          </ul>
+      </div>
+    </nav>
+
+    <div class="content">
+
+      <div class="bg-no-highlight">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-11">
+              <h2>Logistics</h2>
+            </div>
+          </div>
+
+          <!-- <div class="section">
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Course Communication</h4>
+                We will use Piazza as the main form of communication and discussion within the course (note that we will not be using Canvas in this course). Please make sure you sign up <a href="http://www.piazza.com/stanford/winter2020/biods220" target="_blank">here</a>. All course announcements will happen through Piazza. All communication with course staff should also happen through Piazza -- please create a private post if appropriate. We encourage active participation in student discussions on Piazza to enhance learning in the course.
+              </div>
+            </div>
+          </div> -->
+
+          <div class="section">
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Grading Policy</h4>
+                Student presentation (15%)<br>
+                Paper reviews (40%) 4% x 10 reviews<br>
+                Final project (40%)<br>
+                In-class participation (5%)
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Presentation</h4>
+                Details to come.
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Paper Reviews</h4>
+                Details to come.
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Course Project</h4>
+                The <a href="project.html">course project</a> is a significant component of the course and will be worth 40% of the final grade. More detail will be released soon.
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Late Day Policy</h4>
+                <p>We grant <strong>3</strong> unpenalized late days to students for the assignments. You can use at most 1 late day for each assignment. Past the late day, a 25% deduction will be applied for each day late. No assignment will be accepted once they are four or more days late.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Academic Integrity</h4>
+                <p>You are encouraged to discuss assignments with classmates, but all collected data, analysis, images and graphs, and other written work must be your own. All programming assignments must be entirely your own except for teamwork on the final project. You may NOT look online for existing implementations of algorithms related to the programming assignments, even as a reference. Your code will be analyzed by automatic tools that detect plagiarism to ensure that it is original. For the final project, you have full access to the web, but all ideas, quotes, and code fragments that originate from elsewhere must be cited according to standard academic practice. <strong>Students caught cheating will automatically fail the course and will be reported to the university.</strong> If in doubt about the ethics of any particular action, look at the <a href="http://www.cs.utexas.edu/users/ear/CodeOfConduct.html#honesty">departmental guidelines</a> and/or ask — ignorance of the rules will not shield you from potential consequences.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Notice about students with disabilities</h4>
+                <p>The University of Texas at Austin provides upon request appropriate academic accommodations for qualified students with disabilities. For more information, contact the <a href="https://diversity.utexas.edu/">Division of Diversity and Community Engagement</a> — Services for Students with Disabilities at 512-471-6529; 512-471-4641 TTY.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Notice about missed work due to religious holy days</h4>
+                <p>A student who misses an examination, work assignment, or other projects due to the observance of a religious holy day will be given an opportunity to complete the work missed within a reasonable time after the absence, provided that he or she has properly notified the instructor. It is the policy of the University of Texas at Austin that the student must notify the instructor at least fourteen days prior to the classes scheduled on dates he or she will be absent to observe a religious holy day. For religious holy days that fall within the first two weeks of the semester, the notice should be given on the first day of the semester. The student will not be penalized for these excused absences, but the instructor may appropriately respond if the student fails to satisfactorily complete the missed assignment or examination within a reasonable time after the excused absence.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="section"></div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
