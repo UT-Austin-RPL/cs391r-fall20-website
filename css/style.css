@@ -11,8 +11,13 @@ a {
   color: #BF5700;
 }
 
+h4 {
+  margin-bottom: 1.0rem;
+}
+
 .section {
-  padding-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .logistics {
@@ -20,7 +25,7 @@ a {
 }
 
 .bg-highlight {
-  background-color: #fffbed;
+  background-color: #f7f6f1;
   padding: 0px 0px 30px 0px;
 }
 
