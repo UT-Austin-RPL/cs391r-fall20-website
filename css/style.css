@@ -143,3 +143,7 @@ li{
 .label-spotlight {
     background-color: #7AACB2;
 }
+
+.optional-reading {
+  list-style-type: circle;
+}
