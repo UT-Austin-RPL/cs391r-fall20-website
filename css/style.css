@@ -73,8 +73,31 @@ h4 {
   background-color: #eef4ff;
 }
 
+.chapter-row {
+  background-color: #fffbed;
+}
+
+.chapter-row td {
+  padding: 10px 0 10px 0;
+  text-align: center;
+}
+
 .section-row {
   background-color: #fffbed;
+}
+
+.topic-cell {
+  width: 50%;
+}
+
+/*reading list*/
+.topic-cell ul {
+  font-size: 90%;
+  padding-left: 20px;
+}
+
+.topic-cell li {
+  margin: 0 !important;
 }
 
 li{
@@ -87,4 +110,36 @@ li{
 
 .navbar-dark {
   background-color: #BF5700;
+}
+
+.label {
+	display: inline;
+    padding: .2em .6em .3em;
+    font-weight: 500;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.text-base {
+    font-size: 14px !important;
+}
+
+.label-lecture {
+    background-color: #B2ACA7;
+}
+
+.label-presentation {
+    background-color: #EB984E;
+}
+
+.label-due {
+    background-color: #CD6155;
+}
+
+.label-spotlight {
+    background-color: #7AACB2;
 }
