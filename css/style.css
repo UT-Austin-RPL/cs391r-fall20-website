@@ -147,3 +147,7 @@ li{
 .optional-reading {
   list-style-type: circle;
 }
+
+.no-review {
+  list-style-type: square !important;
+}
