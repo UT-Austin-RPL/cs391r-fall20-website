@@ -20,6 +20,6 @@ bundle exec jekyll build --config=_config.yml
 
 echo "rsync to SSH host $instancehost ..."
 
-rsync -vrh -p -e "ssh -p $sshport" --exclude ".*" --delete-after $localjekyll $sshuser@$instancehost:$remotewebroot
+rsync --update -vrh -p -e "ssh -p $sshport" --exclude ".*" --exclude "*.sh" --delete-after $localjekyll $sshuser@$instancehost:$remotewebroot
 
 echo "SSH connection closed. Done. Committed."
